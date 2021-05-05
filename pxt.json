@@ -1,0 +1,34 @@
+{
+    "name": "random-tile-placement",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "color-coded-tilemap": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.4.40",
+        "tag": "v1.4.40",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/6e7016f2daff5c7a6de3f15abd027b9f32fe5b28",
+        "target": "1.4.41",
+        "pxt": "6.12.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
